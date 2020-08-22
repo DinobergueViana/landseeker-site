@@ -302,6 +302,8 @@ audio {
   background-color: rgb(130, 77, 184);
   padding-top: 15px;
   box-sizing: border-box;
+  position: absolute;
+  bottom: 0;
 }
 
 #rodape p {
