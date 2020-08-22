@@ -283,6 +283,7 @@ div > h1 {
   width: 100%;
   height: 250px;
   background-color: rgb(219, 217, 219);
+  position: relative;
 }
 
 #play h2 {
