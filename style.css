@@ -133,5 +133,38 @@ body {
   transition: 0.5s;
 }
 
-/*estilização da pagina de contato*/
+/* estilização dos cards */
+
+.container {
+  margin: 0 auto;
+  border: 1px solid red;
+  display: flex;
+  flex-wrap: wrap;
+  align-self: flex-start;
+  width: 90%;
+  height: 70%;
+  justify-content: space-around;
+
+}
+
+.card {
+  display: flex;
+  margin: auto 0;
+  width: 30%;
+  height: 200px;
+  border: 1px solid black;
+  justify-content: center;
+}
+
+.card:nth-child(1){
+  background-image: url('./assets/product-1.jpg');
+  background-size: cover;
+}
+
+.card button {
+  height: 15%;
+  text-transform: uppercase;
+  margin-top: auto;
+  margin-bottom: 3%;
+}
 
